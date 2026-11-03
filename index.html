@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大胖子寵物美容工坊</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pink: {
+                            50: '#fff1f2',
+                            100: '#ffe4e6',
+                            200: '#fecdd3',
+                            300: '#fda4af',
+                            400: '#fb7185',
+                            500: '#f43f5e',
+                            600: '#e11d48',
+                        },
+                        cream: '#fffaf6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #fffaf6;
+        }
+    </style>
+</head>
+<body class="text-gray-700 flex flex-col min-h-screen">
+
+    <!-- Header / Hero Section -->
+    <header class="bg-pink-100 border-b border-pink-200">
+        <div class="max-w-4xl mx-auto px-4 py-8 text-center">
+            <div class="inline-block bg-white p-4 rounded-full shadow-md mb-4 text-pink-400">
+                <i class="fas fa-paw fa-3x"></i>
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-bold text-pink-500 mb-2">大胖子寵物美容工坊</h1>
+            <p class="text-pink-600 font-medium text-lg">～ 幫家裡的毛寶貝洗香香、變漂亮！～</p>
+            <p class="mt-3 text-sm text-gray-500">上班辛苦啦！把寶貝交給大胖子，回家就能抱到一隻香噴噴的蓬鬆毛球囉 ❤️</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-8 flex-grow space-y-8">
+
+        <!-- Welcome Message -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100">
+            <h2 class="text-xl font-bold text-pink-500 flex items-center gap-2 mb-3">
+                <i class="fas fa-heart text-pink-400"></i> 親愛的爸爸媽媽你好呀～
+            </h2>
+            <p class="leading-relaxed text-gray-600">
+                今天寶貝又去哪裡探險了嗎？還是毛髮有點亂乾脆來做個 SPA 呢？<br>
+                大胖子這裡專門服務小型犬寶貝，美容時不趕時間、全程溫柔對待，讓狗狗來到這裡就像去朋友家玩一樣放鬆！下班順路接回家剛剛好喔！
+            </p>
+        </section>
+
+        <!-- Services -->
+        <section class="space-y-4">
+            <h2 class="text-xl font-bold text-gray-800 text-center flex items-center justify-center gap-2">
+                <i class="fas fa-cut text-pink-400"></i> 服務項目
+            </h2>
+            <!-- 服務說明：精簡300字以內 -->
+            <div class="bg-white p-5 rounded-xl border border-pink-100 shadow-sm text-sm text-gray-600 leading-relaxed mb-4">
+                <p class="mb-2"><strong class="text-pink-500">【專為小型犬與忙碌上班族打造的溫馨美容】</strong></p>
+                <p>我們提供「精細洗澡保養」、「專業手剪造型」與「上班族寵物安親」三項核心服務。</p>
+                <ul class="list-disc list-inside mt-2 space-y-1 text-gray-500">
+                    <li><strong class="text-gray-700">洗澡保養：</strong>包含洗沐、清耳朵、剪指甲、擠肛門腺與腳底毛整理，讓毛孩煥然一新。</li>
+                    <li><strong class="text-gray-700">手剪造型：</strong>依犬種與體型量身設計，如泰迪熊頭、圓圓頭等，兼具美感與舒適。</li>
+                    <li><strong class="text-gray-700">寵物安親：</strong>提供安全舒適的休息空間與專人陪伴，讓上班族家長安心上班、下班順路接回！</li>
+                </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Service 1 -->
+                <div class="bg-white p-5 rounded-xl border border-pink-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg text-gray-800">基礎洗澡小大修</h3>
+                            <span class="bg-pink-100 text-pink-600 text-xs font-bold px-2.5 py-1 rounded-full">上班族最愛</span>
+                        </div>
+                        <p class="text-sm text-gray-500 mb-3">洗香香 + 清耳朵 + 剪指甲 + 腳底毛整理，還你一隻乾乾淨淨的漂亮寶貝！</p>
+                    </div>
+                    <div class="text-pink-500 font-bold text-right">$500 起</div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-5 rounded-xl border border-pink-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg text-gray-800">萌寵造型全套美容</h3>
+                            <span class="bg-pink-100 text-pink-600 text-xs font-bold px-2.5 py-1 rounded-full">大推薦</span>
+                        </div>
+                        <p class="text-sm text-gray-500 mb-3">包含基礎洗澡，再加上大胖子的專業手剪造型！圓圓頭、泰迪熊頭通通沒問題！</p>
+                    </div>
+                    <div class="text-pink-500 font-bold text-right">$900 起</div>
+                </div>
+
+                <!-- Service 3: Pet Daycare -->
+                <div class="bg-white p-5 rounded-xl border border-pink-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg text-gray-800">上班族寵物安親</h3>
+                            <span class="bg-pink-100 text-pink-600 text-xs font-bold px-2.5 py-1 rounded-full">超方便</span>
+                        </div>
+                        <p class="text-sm text-gray-500 mb-3">上班沒空陪寶貝？放大人這裡陪伴玩耍、定時陪伴遛遛，不用擔心狗狗獨自在家孤單崩潰！</p>
+                    </div>
+                    <div class="text-pink-500 font-bold text-right">$80 / 小時 <span class="text-xs text-gray-400 font-normal">($350/全天)</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price List Section -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100 space-y-4">
+            <h2 class="text-xl font-bold text-pink-500 flex items-center gap-2">
+                <i class="fas fa-tags text-pink-400"></i> 美容與洗澡價目表
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse text-sm">
+                    <thead>
+                        <tr class="border-b border-pink-200 text-pink-600 bg-pink-50">
+                            <th class="p-3 rounded-l-lg">體型 / 寵物類型</th>
+                            <th class="p-3">基礎洗澡</th>
+                            <th class="p-3">大美容 (含造型)</th>
+                            <th class="p-3 rounded-r-lg">備註說明</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-pink-100 text-gray-600">
+                        <tr class="hover:bg-pink-50/50">
+                            <td class="p-3 font-medium text-gray-800">小型犬 (7kg 以下)</td>
+                            <td class="p-3 font-bold text-pink-500">$500 - $650</td>
+                            <td class="p-3 font-bold text-pink-500">$900 - $1,200</td>
+                            <td class="p-3 text-xs text-gray-400">貴賓、博美、吉娃娃、瑪爾濟斯等</td>
+                        </tr>
+                        <tr class="hover:bg-pink-50/50">
+                            <td class="p-3 font-medium text-gray-800">中型犬 (7 - 15kg)</td>
+                            <td class="p-3 font-bold text-pink-500">$700 - $900</td>
+                            <td class="p-3 font-bold text-pink-500">$1,300 - $1,600</td>
+                            <td class="p-3 text-xs text-gray-400">柴犬、柯基、法鬥等</td>
+                        </tr>
+                        <tr class="hover:bg-pink-50/50">
+                            <td class="p-3 font-medium text-gray-800">貓咪專區 (不分體型)</td>
+                            <td class="p-3 font-bold text-pink-500">$700 - $900</td>
+                            <td class="p-3 font-bold text-pink-500">$1,400 - $1,800</td>
+                            <td class="p-3 text-xs text-gray-400">採溫柔低壓洗澡，拆結另計</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-xs text-gray-400 mt-2">* 實際費用會依毛髮長度、打結嚴重度與現場狀況微調，歡迎先傳照片諮詢大胖子唷！</p>
+        </section>
+
+        <!-- Pet Age Converter Interactive Tool -->
+        <section class="bg-gradient-to-r from-pink-50 to-rose-50 rounded-2xl p-6 shadow-sm border border-pink-200 space-y-4">
+            <h2 class="text-xl font-bold text-pink-600 flex items-center gap-2">
+                <i class="fas fa-calculator text-pink-500"></i> 毛孩換算人類年齡小工具
+            </h2>
+            <p class="text-sm text-gray-600">想知道你家寶貝現在相當於人類的幾歲嗎？快來算算看！</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 items-end">
+                <div>
+                    <label class="block text-xs font-bold text-gray-600 mb-1">寵物種類</label>
+                    <select id="petType" class="w-full p-2.5 rounded-lg border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300 bg-white">
+                        <option value="dog">🐶 小型犬 (10kg以下)</option>
+                        <option value="cat">🐱 貓咪</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-600 mb-1">毛孩實際年齡 (歲)</label>
+                    <input type="number" id="petAge" min="0" max="30" value="3" class="w-full p-2 rounded-lg border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300 bg-white" placeholder="請輸入年齡">
+                </div>
+                <button onclick="calculateHumanAge()" class="w-full bg-pink-400 hover:bg-pink-500 text-white font-bold py-2.5 px-4 rounded-lg shadow transition">
+                    立即換算 ✨
+                </button>
+            </div>
+
+            <div id="ageResult" class="hidden mt-4 p-4 bg-white rounded-xl border border-pink-200 text-center">
+                <p class="text-gray-600 text-sm">換算結果：</p>
+                <p class="text-2xl font-bold text-pink-500 mt-1"><span id="humanAgeVal">0</span> 歲</p>
+                <p id="ageTip" class="text-xs text-gray-500 mt-1"></p>
+            </div>
+        </section>
+
+        <!-- Health & Care Knowledge (At least 2 topics) -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100 space-y-4">
+            <h2 class="text-xl font-bold text-pink-500 flex items-center gap-2">
+                <i class="fas fa-lightbulb text-pink-400"></i> 大胖子衛教小時間
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <!-- Knowledge 1 -->
+                <div class="p-4 rounded-xl bg-pink-50/60 border border-pink-100">
+                    <h3 class="font-bold text-pink-600 flex items-center gap-2 mb-2">
+                        <i class="fas fa-paw"></i> 衛教 1：小型犬腳底毛沒剃的隱形危機
+                    </h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">
+                        許多上班族家裡的木地板很滑，如果小型犬（如貴賓、博美）的腳底肉墊被過長的毛遮住，跑跳時容易打滑摔倒，長期下來會造成<strong>膝蓋骨脫位</strong>或關節受傷！建議每 2-3 週定時修剪腳底毛喔。
+                    </p>
+                </div>
+                <!-- Knowledge 2 -->
+                <div class="p-4 rounded-xl bg-pink-50/60 border border-pink-100">
+                    <h3 class="font-bold text-pink-600 flex items-center gap-2 mb-2">
+                        <i class="fas fa-shower"></i> 衛教 2：上班族洗澡頻率多久一次才對？
+                    </h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">
+                        室內小型犬建議 <strong>7-14 天洗一次澡</strong> 即可。太常洗會洗掉皮膚保護油脂導致乾燥發癢；過久不洗則容易積聚皮屑與細菌。平日下班回家可以用濕紙巾清理腳掌，定期交給大胖子深度清潔美容最合適！
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Info Section -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100 space-y-4">
+            <h2 class="text-xl font-bold text-pink-500 flex items-center gap-2">
+                <i class="fas fa-store text-pink-400"></i> 工作室聯絡資訊與地址
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-pink-100 flex items-center justify-center text-pink-500">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">聯絡電話（預約專線）</p>
+                            <p class="font-bold text-gray-800">0912-345-678 / (02) 2345-6789</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-pink-100 flex items-center justify-center text-pink-500">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">工作室地址</p>
+                            <p class="font-bold text-gray-800">台北市可愛區粉紅路 88 號 1 樓</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-pink-100 flex items-center justify-center text-pink-500">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">營業時間</p>
+                            <p class="font-bold text-gray-800">週一至週六 10:00 - 20:00（週日公休）</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-pink-50 p-4 rounded-xl flex flex-col justify-center items-center text-center">
+                    <p class="font-bold text-pink-600 mb-2">💬 官方 LINE 預約更快更方便</p>
+                    <p class="text-xs text-gray-500 mb-3">搜尋 LINE ID: <span class="font-mono bg-white px-2 py-1 rounded border border-pink-200">@bigfatpet</span></p>
+                    <button class="bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold py-2 px-4 rounded-full transition flex items-center gap-2">
+                        <i class="fab fa-line text-base"></i> 加入 LINE 預約美容
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Signature -->
+    <footer class="bg-pink-200 text-pink-700 py-4 text-center font-medium text-sm mt-auto">
+        <p>製作：大胖子</p>
+    </footer>
+
+    <!-- JavaScript logic for Pet Age Calculator -->
+    <script>
+        function calculateHumanAge() {
+            const petType = document.getElementById('petType').value;
+            const ageInput = document.getElementById('petAge').value;
+            const age = parseFloat(ageInput);
+
+            if (isNaN(age) || age < 0) {
+                alert('請輸入有效的毛孩年齡喔！');
+                return;
+            }
+
+            let humanAge = 0;
+            let tip = '';
+
+            if (petType === 'dog') {
+                // 小型犬公式：第1年相當於15歲，第2年相當於24歲，之後每年+4歲
+                if (age <= 1) {
+                    humanAge = Math.round(age * 15);
+                } else if (age <= 2) {
+                    humanAge = 15 + Math.round((age - 1) * 9);
+                } else {
+                    humanAge = 24 + Math.round((age - 2) * 4);
+                }
+                tip = '小型犬成長快速，7 歲以上就逐步邁入熟齡期囉！';
+            } else {
+                // 貓咪公式：第1年相當於15歲，第2年相當於24歲，之後每年+4歲
+                if (age <= 1) {
+                    humanAge = Math.round(age * 15);
+                } else if (age <= 2) {
+                    humanAge = 15 + Math.round((age - 1) * 9);
+                } else {
+                    humanAge = 24 + Math.round((age - 2) * 4);
+                }
+                tip = '貓咪滿 7 歲後建議每年進行一次健康檢查喔！';
+            }
+
+            document.getElementById('humanAgeVal').innerText = humanAge;
+            document.getElementById('ageTip').innerText = tip;
+            document.getElementById('ageResult').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
